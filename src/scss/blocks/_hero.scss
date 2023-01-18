@@ -1,0 +1,93 @@
+.hero {
+  padding: 150px 0 135px 0;
+  text-align: center;
+  background-image: url("../image/uber_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 115px;
+    color: #ffffff;
+  }
+  &__title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 64px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #ffffff;
+  }
+  &__title-sm {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  &__text2 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  &__text3 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 28px;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    &__title {
+      font-size: 50px;
+      line-height: 54px;
+    }
+    &__title-sm {
+      font-size: 30px;
+      line-height: 40px;
+    }
+    &__text {
+      margin: 0 auto;
+      width: 700px;
+      margin-bottom: 60px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero {
+    height: 309px;
+    padding: 0;
+    padding-top: 250px;
+    &__text {
+      display: none;
+    }
+    &__title {
+      font-size: 30px;
+      line-height: 35px;
+    }
+    &__title-sm {
+      font-size: 20px;
+      line-height: 23px;
+    }
+  }
+}

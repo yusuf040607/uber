@@ -1,0 +1,39 @@
+.btn {
+  display: block;
+  margin: 0 auto;
+  padding: 7px 11px;
+  cursor: pointer;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 11px;
+  text-align: center;
+  text-transform: uppercase;
+  mix-blend-mode: normal;
+  color: #ffffff;
+  background: #000000;
+}
+.btn-blue {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 43px;
+  text-align: center;
+  text-transform: uppercase;
+
+  cursor: pointer;
+  border: none;
+  padding: 1px 21px;
+  border-radius: 4px;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+  background: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+  color: #ffffff;
+  @media screen and (max-width: 768px) {
+    font-weight: 200;
+    font-size: 11px;
+    line-height: 38px;
+  }
+}

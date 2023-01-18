@@ -1,0 +1,87 @@
+.foot {
+  padding: 10px 36px;
+  &__line {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 301px;
+    height: 7px;
+    margin-bottom: 35px;
+    background: #1fbad6;
+  }
+  &__social-list {
+    display: flex;
+    width: 276px;
+    gap: 6px;
+  }
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 4px;
+    width: 32px;
+    height: 32px;
+    background-color: #070716;
+    border-radius: 100%;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  &__link-main {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #070716;
+  }
+  &__list {
+    display: flex;
+    justify-content: center;
+    gap: 46px;
+    margin-bottom: 15px;
+  }
+  &__box {
+    width: 400px;
+    margin: 0 auto;
+  }
+  &__inner {
+    width: 33%;
+    text-align: center;
+  }
+  &__list-contacts {
+    display: flex;
+
+    justify-content: center;
+    gap: 22px;
+  }
+  &__link-contacts {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #999999;
+  }
+  &__link-lang {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 68px;
+
+    text-transform: uppercase;
+    color: $main-color;
+  }
+  &__playmarket {
+    display: flex;
+    gap: 8px;
+  }
+  &__market-img {
+    border-radius: 5px;
+  }
+}
